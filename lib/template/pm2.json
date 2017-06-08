@@ -1,0 +1,16 @@
+//use pm2 start app
+//pm2 startOrGracefulReload pm2.json
+{
+  "apps": [{
+    "name": "<APP_NAME>",
+    "script": "index.js",
+    "cwd": "<ROOT_PATH>",
+    "max_memory_restart": "1G",
+    "autorestart": true,
+    "node_args": "",
+    "args": [],
+    "env": {
+      "NODE_ENV": "production"
+    }
+  }]
+}

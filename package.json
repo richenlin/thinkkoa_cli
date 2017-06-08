@@ -1,0 +1,35 @@
+{
+  "name": "thinkkoa_cli",
+  "version": "1.0.0",
+  "description": "ThinkKoa command line tool.",
+  "main": "lib/index.js",
+  "bin": {
+    "think": "./lib/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "commander": "^2.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richenlin/thinkkoa_cli.git"
+  },
+  "keywords": [
+    "thinkkoa",
+    "cli"
+  ],
+  "author": "richenlin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/richenlin/thinkkoa_cli/issues"
+  },
+  "homepage": "https://github.com/richenlin/thinkkoa_cli#readme",
+  "maintainers": [
+    {
+      "name": "richenlin",
+      "email": "richenlin@gmail.com"
+    }
+  ]
+}

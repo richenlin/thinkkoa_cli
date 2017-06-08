@@ -1,0 +1,36 @@
+{
+  "name": "thinkkoa-application",
+  "description": "application created by thinkkoa",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "npm run eslint",
+    "start": "npm run compile && supervisor -w app -q index",
+    "compile": "babel src -d App -D",
+    "watch-compile": "npm run compile -- --watch",
+    "eslint": "eslint src"
+  },
+  "babel": {
+    "presets": [
+      ["env", {"targets": {"node": true}, "loose": true}]
+    ],
+    "plugins": [
+      "transform-runtime"
+    ]
+  },
+  "dependencies": {
+    "babel-runtime": "6.22.0",
+    "thinkkoa": "^1.x.x"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-core": "^6.22.1",
+    "babel-eslint": "^7.1.1",
+    "babel-plugin-transform-runtime": "^6.22.0",
+    "babel-preset-env": "^1.1.8",
+    "eslint": "^3.15.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0",
+    "supertest": "^3.0.0",
+    "supervisor": "^0.12.0"
+  }
+}
