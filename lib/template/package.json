@@ -5,7 +5,7 @@
   "scripts": {
     "test": "npm run eslint",
     "start": "npm run compile && supervisor -w app -q index",
-    "compile": "babel src -d App -D",
+    "compile": "babel src -d app -D",
     "watch-compile": "npm run compile -- --watch",
     "eslint": "eslint src"
   },
