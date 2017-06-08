@@ -10,7 +10,7 @@ ThinkKoa command line tool.
 -----
 
 ```
-npm i thinkkoa_cli
+npm i thinkkoa_cli -g
 ```
 
 # 使用
