@@ -205,8 +205,6 @@
   },
   "globals": {
     "think": true,
-    "JsonError": true,
-    "PageError": true,
     "echo": true
   }
 }
