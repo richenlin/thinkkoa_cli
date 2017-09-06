@@ -1,6 +1,6 @@
 {
   "name": "thinkkoa_cli",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "ThinkKoa command line tool.",
   "main": "lib/index.js",
   "bin": {
