@@ -3,6 +3,7 @@
   "description": "application created by thinkkoa",
   "version": "1.0.0",
   "scripts": {
+    "autod": "autod",
     "test": "npm run eslint",
     "start": "npm run compile && supervisor -w app -q index",
     "compile": "babel src -d app -D",
@@ -22,6 +23,7 @@
     "thinkkoa": "^1.x.x"
   },
   "devDependencies": {
+    "autod": "^2.9.0",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-eslint": "^7.2.3",
