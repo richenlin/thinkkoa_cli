@@ -5,32 +5,19 @@
   "scripts": {
     "autod": "autod",
     "test": "npm run eslint",
-    "start": "npm run compile && supervisor -w app -q index",
-    "compile": "babel src -d app -D",
-    "watch-compile": "npm run compile -- --watch",
+    "start": "supervisor -w app -q index",
     "eslint": "eslint src"
   },
-  "babel": {
-    "presets": [
-      ["env", {"targets": {"node": true}, "loose": true}]
-    ],
-    "plugins": [
-      "transform-runtime"
-    ]
+  "engines": {
+    "node": ">8.0.0"
   },
   "dependencies": {
-    "babel-runtime": "6.26.0",
-    "thinkkoa": "^1.x.x"
+    "thinkkoa": "^2.x.x"
   },
   "devDependencies": {
     "autod": "^2.9.0",
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.0",
-    "babel-eslint": "^7.2.3",
-    "babel-plugin-transform-runtime": "^6.23.0",
-    "babel-preset-env": "^1.6.0",
     "eslint": "^4.4.1",
-    "istanbul": "^0.4.5",
+    "istanbul": "^1.1.0-alpha.1",
     "mocha": "^3.5.0",
     "supertest": "^3.0.0",
     "supervisor": "^0.12.0"

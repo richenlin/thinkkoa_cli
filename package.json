@@ -1,6 +1,6 @@
 {
   "name": "thinkkoa_cli",
-  "version": "1.2.2",
+  "version": "2.0.0",
   "description": "ThinkKoa command line tool.",
   "main": "lib/index.js",
   "bin": {
@@ -13,11 +13,11 @@
     "node": ">6.0.0"
   },
   "dependencies": {
-    "commander": "^2.9.0"
+    "commander": "^2.11.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/richenlin/thinkkoa_cli.git"
+    "url": "git+https://github.com/thinkkoa/thinkkoa_cli.git"
   },
   "keywords": [
     "thinkkoa",
@@ -26,9 +26,9 @@
   "author": "richenlin",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/richenlin/thinkkoa_cli/issues"
+    "url": "https://github.com/thinkkoa/thinkkoa_cli/issues"
   },
-  "homepage": "https://github.com/richenlin/thinkkoa_cli#readme",
+  "homepage": "https://github.com/thinkkoa/thinkkoa_cli#readme",
   "maintainers": [
     {
       "name": "richenlin",
