@@ -1,3 +1,4 @@
+[![ThinkKoa](http://thinkkoa.org/img/logo.png)](http://thinkkoa.org/)
 
 application created by [ThinkKoa]
 

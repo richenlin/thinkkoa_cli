@@ -3,7 +3,6 @@
   "description": "application created by thinkkoa",
   "version": "1.0.0",
   "scripts": {
-    "autod": "autod",
     "test": "npm run eslint",
     "start": "supervisor -w app -q index",
     "eslint": "eslint src"
@@ -15,7 +14,6 @@
     "thinkkoa": "^2.x.x"
   },
   "devDependencies": {
-    "autod": "^2.9.0",
     "eslint": "^4.4.1",
     "istanbul": "^1.1.0-alpha.1",
     "mocha": "^3.5.0",
