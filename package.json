@@ -1,6 +1,6 @@
 {
   "name": "thinkkoa_cli",
-  "version": "2.1.0",
+  "version": "2.3.0",
   "description": "ThinkKoa command line tool.",
   "main": "lib/index.js",
   "bin": {
@@ -13,7 +13,8 @@
     "node": ">8.0.0"
   },
   "dependencies": {
-    "commander": "^2.11.0"
+    "commander": "^2.14.1",
+    "update-notifier": "^2.3.0"
   },
   "repository": {
     "type": "git",
