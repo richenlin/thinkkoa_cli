@@ -3,6 +3,7 @@
   "description": "application created by thinkkoa",
   "version": "1.0.0",
   "scripts": {
+    "doc": "apidoc -i app/controller/ -o static/doc/",
     "test": "npm run eslint",
     "start": "supervisor -w app -q index",
     "eslint": "eslint app"
@@ -14,6 +15,8 @@
     "thinkkoa": "^2.x.x"
   },
   "devDependencies": {
+    "apidoc": "^0.17.7",
+    "chai": "^4.1.2",
     "eslint": "^4.11.0",
     "istanbul": "^1.1.0-alpha.1",
     "mocha": "^4.0.1",
